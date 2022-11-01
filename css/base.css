@@ -25,3 +25,11 @@ body {
     --orange: #F18128;
     --light: #ED8E00;
 }
+
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
