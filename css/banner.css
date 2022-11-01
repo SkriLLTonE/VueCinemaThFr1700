@@ -64,3 +64,32 @@
     background: var(--orange);
     color: var(--black);
 }
+
+
+@media screen and (max-width:640px) {
+    .banner__h{
+        font-size: 44px;
+    }
+}
+@media screen and (max-width:460px) {
+    .banner__h{
+        font-size: 33px;
+    }
+    .banner__p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:420px) {
+    .banner__btns{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:360px) {
+    .banner__h{
+        font-size: 28px;
+    }
+    .banner__p{
+        font-size: 12px;
+    }
+}
+    

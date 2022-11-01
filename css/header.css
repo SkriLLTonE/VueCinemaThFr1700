@@ -1,3 +1,6 @@
+.header{
+    position: relative;
+}
 .topnav {
     padding: 20px 0;
     background: linear-gradient(90.09deg, #3800AF 0%, #BF7204 97.52%, #C27500 100%, #C27500 100%);
@@ -23,6 +26,9 @@
     background: #010305CC;
     backdrop-filter: blur(7.5px);
     padding: 29px 0;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 .nav__wrap {
