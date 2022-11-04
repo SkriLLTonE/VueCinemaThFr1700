@@ -1,5 +1,6 @@
 .header{
     position: relative;
+    z-index: 10;
 }
 .topnav {
     padding: 20px 0;
@@ -29,6 +30,7 @@
     position: sticky;
     top: 0;
     left: 0;
+    z-index: 100;
 }
 
 .nav__wrap {
